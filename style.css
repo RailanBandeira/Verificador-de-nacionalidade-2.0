@@ -4,11 +4,10 @@
 
 body {
     height: 91vh;
-    background-image: url(pexels-nastyasensei-335393.jpg);
+    background-image: url(globo.jpg);
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: bottom;
 }
 
 header {
@@ -18,8 +17,6 @@ header {
     color: white;
     font-size: 35px;
     margin: auto;
-    min-width: 150px;
-    max-width: 1000px;
 }
 
 main {
@@ -29,8 +26,6 @@ main {
     font-size: 45px;
     text-align: center;
     margin: auto;
-    max-width: 1000px;
-    min-width: 150px;
 }
 
 main>section>p>input {
