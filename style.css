@@ -6,8 +6,9 @@ body {
     height: 91vh;
     background-image: url(pexels-nastyasensei-335393.jpg);
     background-color: black;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
 header {
@@ -38,7 +39,7 @@ main>section>p>input {
 main>section>div {
     background-color: rgba(78, 72, 72, 0.534);
     color: rgb(255, 255, 255);
-    margin: 0px -8px 0px -8px;
+    margin: auto;
     min-width: 300px;
     max-width: 1000px;
 }
