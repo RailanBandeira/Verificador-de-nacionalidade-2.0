@@ -3,8 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 body {
+    height: 91vh;
     background-image: url(globo1280.jpg);
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -14,6 +16,7 @@ header {
     color: white;
     font-size: 35px;
     margin: auto;
+    min-height: 150px;
 }
 
 main {
@@ -22,7 +25,9 @@ main {
     color: white;
     font-size: 45px;
     text-align: center;
-    margin: auto
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 main>section>p>input {
