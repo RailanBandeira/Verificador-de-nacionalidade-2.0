@@ -18,7 +18,8 @@ header {
     color: white;
     font-size: 35px;
     margin: auto;
-    min-height: 150px;
+    min-width: 150px;
+    max-width: 1000px;
 }
 
 main {
@@ -28,8 +29,8 @@ main {
     font-size: 45px;
     text-align: center;
     margin: auto;
-    min-width: 300px;
     max-width: 1000px;
+    min-width: 150px;
 }
 
 main>section>p>input {
@@ -39,6 +40,4 @@ main>section>p>input {
 main>section>div {
     background-color: rgba(78, 72, 72, 0.534);
     color: rgb(255, 255, 255);
-    min-width: 300px;
-    max-width: 1000px;
 }
