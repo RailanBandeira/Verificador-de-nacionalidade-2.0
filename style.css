@@ -5,6 +5,7 @@
 body {
     height: 91vh;
     background-image: url(globo1280.jpg);
+    background-color: black;
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -38,4 +39,6 @@ main>section>div {
     background-color: rgba(78, 72, 72, 0.534);
     color: rgb(255, 255, 255);
     margin: 0px -8px 0px -8px;
+    min-width: 300px;
+    max-width: 1000px;
 }
