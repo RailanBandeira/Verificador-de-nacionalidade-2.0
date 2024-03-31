@@ -5,7 +5,7 @@ function Verificar() {
 
     if (vel == "") {
         alert('[ERRO] Digite um nome de um país')
-        ppp.innerHTML += `Impossível verificar`
+        ppp.innerHTML = `Impossível verificar`
     }
     else {
         if (vel == 'Brasil') {
