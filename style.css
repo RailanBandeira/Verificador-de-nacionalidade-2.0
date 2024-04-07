@@ -36,10 +36,8 @@ main>section>p>input {
 main>section>div {
     background-color: rgba(78, 72, 72, 0.534);
     color: rgb(255, 255, 255);
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
