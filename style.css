@@ -18,6 +18,8 @@ header {
     color: white;
     font-size: 35px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -27,6 +29,8 @@ main {
     font-size: 45px;
     text-align: center;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 main>section>p>input {
