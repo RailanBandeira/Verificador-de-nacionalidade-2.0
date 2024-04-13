@@ -20,7 +20,7 @@ header {
 
 }
 
-main {
+form {
     font-family: "Roboto Mono", monospace;
     font-weight: normal;
     color: white;
@@ -29,11 +29,11 @@ main {
     margin: auto;
 }
 
-main>section>p>input {
+input {
     height: 20px;
 }
 
-main>section>div {
+div {
     background-color: rgba(78, 72, 72, 0.534);
     color: rgb(255, 255, 255);
 }
