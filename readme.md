@@ -1,7 +1,5 @@
-## Em andamento (Não Finalizado)
-
 ## Sempre use a primeira letra MAIÚSCULA !
 
-## Site nao responsivo para dispositivos móveis !
+## Países com retorno : Brasil, Estados Unidos ou USA, Russia e China
 
-https://railanbandeira.github.io/Verificador-de-nacionalidade-2.0/
+## Site nao responsivo para dispositivos móveis !
