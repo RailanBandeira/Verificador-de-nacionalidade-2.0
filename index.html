@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de nacionalidade</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 </head>
 
@@ -16,11 +17,15 @@
     <form>
         <p>
             <label for="pais"><strong>Pais</strong>:</label>
-            <input type="text" name="npais" id="pais">
+            <input type="text" name="npais" id="pais" onclick="limpar()">
             <input type="button" value="Verificar" onclick="Verificar()">
         </p>
         <div id="ppp">
         </div>
+        <img id="brasilFlag" src="bandeiras/brasil.png" alt="bandeira_brasil" style="display: none;">
+        <img id="chinaFlag" src="bandeiras/china.png" alt="bandeira_china" style="display: none;">
+        <img id="russiaFlag" src="bandeiras/russia.png" alt="bandeira_russia" style="display: none;">
+        <img id="usaFlag" src="bandeiras/usa.png" alt="bandeira_usa" style="display: none;">
     </form>
     <script src="script.js"></script>
 </body>
