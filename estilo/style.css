@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    height: 91vh;
-    background-image: url(imagem-fundo/globo.jpg);
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #07213F;
 }
 
 header {
@@ -15,18 +16,20 @@ header {
     font-weight: bolder;
     text-align: center;
     color: white;
-    font-size: 35px;
-    margin: auto;
-
+    font-size: 1.5em;
 }
 
 form {
     font-family: "Roboto Mono", monospace;
     font-weight: normal;
     color: white;
-    font-size: 45px;
+    font-size: 2em;
     text-align: center;
     margin: auto;
+}
+
+form>p {
+    margin-top: 10px;
 }
 
 input {
@@ -34,10 +37,13 @@ input {
 }
 
 div {
-    background-color: rgba(78, 72, 72, 0.534);
+    width: auto;
+    margin: 50px auto;
+    background-color: #C4BAAB;
     color: rgb(255, 255, 255);
 }
 
-img{
+img {
+    margin-top: -40px;
     height: 100px;
 }
